@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="card.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Title</h1>
+        <table>
+            <tr>
+                <td>
+                    <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+                    <p class="login">Your Login</p>
+                    <p class="description">Your Description</p>
+                    <div class="social-icons">
+                        <!-- Facebook Icon -->
+                        <img src="facebook-icon.png" alt="Facebook" class="social-icon">
+                        <!-- GitHub Icon -->
+                        <img src="github-icon.png" alt="GitHub" class="social-icon">
+                    </div>
+                    <button onclick="contactFunction()">Contact</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        function contactFunction() {
+            // Add your contact logic here
+            alert("Contact button clicked!");
+        }
+    </script>
+</body>
+</html>
